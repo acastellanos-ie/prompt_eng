@@ -77,3 +77,33 @@ A:
 ```
 
 A newly emerged concept is the notion of zero-shot CoT which introduces the inclusion of **"Let's think step by step"** to the initial prompt. Let's attempt a straightforward problem to observe the model's performance.
+
+```
+I went to the market and bought 10 apples. I gave 2 apples to the neighbor and 2 to the repairman. I then went and bought 5 more apples and ate 1. How many apples did I remain with?
+Let's think step by step.
+```
+
+## Generated Knowledge
+
+LLMs are continually being enhanced, and a prominent approach involves integrating knowledge or information to enhance the model's predictive accuracy. Building upon this concept, can the model also be employed to generate knowledge prior to making a prediction?
+
+```
+Answer the question
+Question: Who is the Machine Learning Teacher?
+Answer: The Machine learning teacher is [name]
+```
+
+```
+Answer the question
+Question: Who is the Machine Learning Teacher?
+Knowledge:  I (Angel Castellanos) am a Senior Data Scientist with over a decade of experience, I have honed my skills both in academia as a Researcher during my Ph.D. journey and in the industry, contributing to the success of some of Spain's premier data science departments.
+
+With a perpetual curiosity, my mission is to fuse cutting-edge Machine Learning and Natural Language Processing research with tangible corporate challenges. I pride myself on transforming novel research concepts into game-changing products and services, such as modeling user interactions and constructing unsupervised dialog systems. 
+
+Having devoted two years to developing AI-driven Unsupervised Language Models at Lang.ai, I enabled businesses to thrive in the AI era. Currently, I've taken on a new challenge at Japan Tobacco International (JTI). I am spearheading the execution of the data science strategy, shaping the company's future through data-driven insights.
+
+In addition to my industry pursuits, I serve as a faculty member at one of Europe's elite business schools, IE University. Specializing in my two primary areas of interest - machine learning and natural language processing - I am honored to work alongside the most esteemed names and decision-makers in the Spanish Tech sector. By imparting my knowledge and experience to ambitious students, I am helping to 
+empower future professionals in the fields of machine learning and natural language processing and shape the next generation of industry leaders, 
+
+Answer: The Machine learning teacher is [name]
+```
