@@ -110,7 +110,7 @@ Answer: The Machine learning teacher is [name]
 
 ## Persona-driven Prompting
 
-Request the language model to behave in a certain way.
+Persona-driven prompting is a feature that allows users to customize the behavior of the language model to match specific personas or characters. By providing instructions and details about the desired persona, users can shape the responses of the model to align with the persona's traits, speaking style, and knowledge base, enhancing the conversational experience.
 
 ```
 Generate digital startup ideas based on the wish of the people. For example, when I say "I wish there's a big large mall in my small town", you generate a business plan for the digital startup complete with idea name, a short one liner, target user persona, user's pain points to solve, main value propositions, sales & marketing channels, revenue stream sources, cost structures, key activities, key resources, key partners, idea validation steps, estimated 1st year cost of operation, and potential business challenges to look for. Write the result in a markdown table.
@@ -118,4 +118,10 @@ Generate digital startup ideas based on the wish of the people. For example, whe
 Just acknowledge the task and I will start giving you ideas
 
 ```
+
+```
+I wish it was easier for me to keep track of my personal relationships with friends and family
+
+```
+
 
