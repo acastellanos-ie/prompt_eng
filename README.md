@@ -41,5 +41,39 @@ Provide a clear explanation of prompt engineering to a 5 year old, using 2-3 con
 ```
 
 
+# Advanced Prompt Engineering
+
+## Zero-Shot
 
 
+Zero-Shot refers to the ability to generate meaningful responses or outputs without explicit training examples. It involves leveraging a pre-trained language model's understanding of general knowledge and reasoning capabilities to respond intelligently to prompts that it has not been explicitly trained on.
+
+```
+Classify the text into neutral, negative or positive. 
+Text: I think the vacation is okay.
+Sentiment:
+```
+
+## Few-shot
+
+Although large-language models showcase impressive zero-shot abilities, they face limitations when tackling intricate tasks under the zero-shot setting. To overcome this, few-shot prompting can be employed as a technique to facilitate in-context learning. By incorporating demonstrations within the prompt, we guide the model towards improved performance. These demonstrations act as conditioning for subsequent examples, where we desire the model to generate a response.
+
+```
+A "flibbergib" is a hypothetical concept in quantum data theory that represents the entangled state of multiple datasets. An example of a sentence that uses the word "flibbergib" is:
+In this groundbreaking experiment, scientists successfully manipulated the flibbergib, demonstrating the potential for harnessing entangled data for quantum computations.
+
+To "whizzleflop" is the process of generating synthetic data with random variations for testing and validation purposes. An example of a sentence that uses the word "whizzleflop" is:
+```
+
+## Chain of Thought (CoT)
+
+Chain-of-thought (CoT) prompting allows for advanced reasoning abilities by employing intermediate reasoning steps. By integrating CoT prompting with few-shot prompting, one can achieve improved outcomes for intricate tasks that necessitate reasoning prior to providing a response.
+
+```
+The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
+A: Adding all the odd numbers (9, 15, 1) gives 25. The answer is False.
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
+A:
+```
+
+A newly emerged concept is the notion of zero-shot CoT which introduces the inclusion of **"Let's think step by step"** to the initial prompt. Let's attempt a straightforward problem to observe the model's performance.
