@@ -13,3 +13,11 @@ Now I am thinking that a PDF file will be the best form to distribute the CV, cr
 ```
 
  I will then paste the code into [Overleaf](https://es.overleaf.com/) for the PDF generation.
+ 
+ # Improve the layout
+ 
+ I will request ChatGPT to improve the look and feel of the CV so it looks more profesional
+ 
+ ```
+ Can you modify the template to make it more visual?
+ ```
