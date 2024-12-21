@@ -40,6 +40,17 @@ The prompt above lacks clarity regarding the number of sentences and desired sty
 Provide a clear explanation of prompt engineering to a 5 year old, using 2-3 concise sentences.
 ```
 
+## Ask for a strucured output
+
+Many times LLMs are part or larger applications that requires specific formats for pipelining the process. The following prompt shows how to request a specific output in JSON format:
+
+
+```
+Generate a list of three made-up book titles along \ 
+with their authors and genres. 
+Provide them in JSON format with the following keys: 
+book_id, title, author, genre.
+```
 
 # Advanced Prompt Engineering
 
